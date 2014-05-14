@@ -1,0 +1,72 @@
+a.right {
+   display: inline-block;
+   text-align: right;
+   width: 80%;
+   color:#FFF;
+}
+
+#ChatBig {
+	width: 500px;
+	height: 450px;
+	border: 1px	solid #000;
+	margin: auto;
+	overflow-y: scroll
+}
+
+body {
+	width: 100%;
+	background: url(../img/Cool1.jpg) #0b333f no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 600px;
+	margin-top: 20px;
+	padding-top:5px;
+	
+}
+
+p {
+	font-size: 1em; /* 16px */
+	line-height: 1.5; /* 24px */
+	margin: 0 0 1.5em 0;
+	color: #FFF;
+}
+
+h2 {
+	font-size: 30px; /* 21px */
+	
+	padding-left: 50px;
+	margin-bottom: 0em;
+	color:#FFF;
+}
+
+#ChatMessages {
+	width: 500px;
+	height: 500px;
+	font-size: 24px;
+	font-weight: normal;
+	background-color: #FFF;
+}
+
+#ChatText{
+	background-color: #FFF;
+	width: 494px;
+	height: 46px;
+	
+	border-bottom: 1px solid #333;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ChatText:focus{outline: none;}
+
+.UserName{
+	color: #1464F4;
+}
+
+.UserName:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
